@@ -1,0 +1,38 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .left-sidebar {
+      width: 200px;
+      flex-shrink: 0;
+      border: 1px solid black;
+      min-height: 500px;
+    }
+
+    .main-content {
+      flex: 1;
+      border: 1px solid black;
+      min-height: 500px;
+      box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+      background-image: url(https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg);
+      background-size: cover;        /* scales to fill, may crop */
+      background-position: center;   /* centers the image */
+      background-repeat: no-repeat;  /* prevents tiling */
+    }
+
+    .right-sidebar {
+      width: 280px;
+      flex-shrink: 0;
+      border: 1px solid black;
+      min-height: 500px;
+    }
